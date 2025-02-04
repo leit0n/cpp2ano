@@ -6,15 +6,15 @@ using namespace std;
 
 struct Modelo
 {
-    string tipo;
+    int ID;
     vector <string> nomes;
 };
 
 vector <Modelo> modelos = {
-        {"elétricas", {"Stratocaster", "Les Paul", "SG"}},
-        {"clássicas", {"Yamaha C40", "Cordoba C5", "Alhambra 1C"}},
-        {"acústicas", {"Martin D-28", "Taylor 814ce", "Gibson J-45"}},
-        {"ukeleles", {"Kala KA-T", "Lanikai LU-21", "Fender Grace VanderWaal"}}};
+        {1, {"Stratocaster", "Les Paul", "SG"}},
+        {2, {"Yamaha C40", "Cordoba C5", "Alhambra 1C"}},
+        {3, {"Martin D-28", "Taylor 814ce", "Gibson J-45"}},
+        {4, {"Kala KA-T", "Lanikai LU-21", "Fender Grace VanderWaal"}}};
 
 int main() {
     system("clear");
